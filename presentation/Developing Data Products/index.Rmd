@@ -1,0 +1,59 @@
+---
+title       : Developing Data Products
+subtitle    : Coursera Module 9
+author      : Ariel Kok
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+
+## Aim of course project
+
+This presentation is being created as part of the peer assessment for the coursera developing data products class. The assignment is geared toward ensuring the following concepts were well understood by the students
+
+- Shiny - to build data product application
+- R-Presentation or Slidify - to create data product related presentations
+
+---
+
+## The Shiny Application
+
+To display the understanding of using shiny to build an application, a simple application called BMI Calculator has been developed and deployed at: https://kchuying.shinyapps.io/data_products
+
+## Formulas used
+
+If you wish to calculate BMI yourself, below are the BMI formulas for both standard and metric units:
+
+- Standard Units: BMI = Weight (lb) / (Height (in) x Height (in)) x 703
+- Metric Units: BMI = Weight (kg) / (Height (m) x Height (m))
+
+---
+
+## Examples
+
+Example 1: 
+
+A person who is 1.70 m and weighs 60 kg has a BMI of 20.8.
+
+BMI Calculation = 60 / (1.7 x 1.7) = 20.8
+
+This person is in the Normal category.  
+
+Example 2: 
+
+A person who is 5'6" (5'6" = 66") and weighs 160 lbs has a BMI of 25.8.
+
+BMI Calculation = 160 / (66 x 66) x 703 = 25.8
+
+This person is in the Overweight category.
+
+---
+
+## Reference
+
+1. [How To Calculate BMI - BMI Formula](http://www.freebmicalculator.net/calculate-bmi.php)
